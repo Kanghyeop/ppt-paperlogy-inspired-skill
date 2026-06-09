@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "eyebrow": "INTERNAL REVIEW",
+    "title1": "사내 AI 글쓰기 도구",
+    "title2": "도입 검토",
+    "subtitle": "주당 평균 9시간의 문서 작업, 도입 시 약 3시간 절감 기대",
+    "foot": "2026 · Internal Review",
+    "thanks": true
+  },
+  "slides": [
+    {
+      "header": "01  배경", "title": "문서 작업에 시간이 쏠리고, 표준이 없다",
+      "subtitle": "현재 문서 작성 실태", "caption": "주당 평균 9시간 투입",
+      "block": {"type": "bullets", "columns": [
+        [{"head": "문서 작업 시간", "body": "문서 작성에 쓰는 시간이 주당 평균 9시간"}],
+        [{"head": "표준 부재", "body": "부서별 편차가 크고 품질 표준이 없음"}]
+      ]}
+    },
+    {
+      "header": "02  현황", "title": "부서별 주당 문서 작업 시간",
+      "subtitle": "마케팅이 가장 많고 개발이 가장 적다", "caption": "단위: 시간 / 주",
+      "block": {"type": "column_chart", "unit": "시간",
+        "categories": ["마케팅", "영업", "개발"],
+        "series": [{"name": "주당 문서시간", "values": [11, 8, 6]}]}
+    },
+    {
+      "header": "03  기대 효과", "title": "도입으로 기대되는 세 가지",
+      "subtitle": "시간·품질·온보딩", "caption": "",
+      "block": {"type": "numbered", "items": [
+        {"title": "작성 시간 단축", "desc": "반복 문서 템플릿화"},
+        {"title": "품질 표준화", "desc": "톤·구조 가이드 내장"},
+        {"title": "온보딩 가속", "desc": "신규 입사자 학습 곡선 완화"}
+      ]}
+    },
+    {
+      "header": "04  결론", "title": "도입 시 주당 약 3시간 절감",
+      "subtitle": "검토 결론", "caption": "Internal Review · 2026",
+      "block": {"type": "callout",
+        "big": "도입 시 주당 약 3시간 절감이 기대된다.",
+        "points": [
+          "현재 문서 작업 주당 평균 9시간 투입",
+          "반복 문서 템플릿화로 작성 시간 단축",
+          "톤·구조 가이드로 품질 표준화"
+        ]}
+    }
+  ]
+}

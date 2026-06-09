@@ -1,0 +1,7 @@
+{
+  "accent": "1456F0",
+  "logo": "assets/your-logo.png",
+  "template": "assets/ppt-template.pptx",
+  "decks_dir": "decks",
+  "onboarded": false
+}
