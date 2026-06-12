@@ -2,6 +2,17 @@
 
 마크다운 문서 하나를 통일된 디자인의 **편집 가능한 PPT**로 만들어 주는 Claude Code 스킬.
 
+## 샘플 갤러리
+
+`decks/01-example/`의 예제 PPT 일부입니다. (차트·표는 파워포인트에서 그대로 편집됩니다)
+
+<p>
+<img src="docs/preview/cover.png" width="400"> <img src="docs/preview/numbered.png" width="400">
+</p>
+<p>
+<img src="docs/preview/chart.png" width="400"> <img src="docs/preview/comparison.png" width="400">
+</p>
+
 ## 이것만 하시면 됩니다
 1. `decks/` 안에 폴더를 하나 만든다 - 예: `decks/01-내주제/`
 2. 그 폴더에 PPT로 만들고 싶은 내용을 넣는다 - 마크다운이 가장 좋고, 다른 파일이어도 됩니다. (이미지가 있으면 같이)
